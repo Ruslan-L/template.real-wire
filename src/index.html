@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Tempalte no Name</title>
+
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    </head>
+    <body>
+        <!-- link -->
+        <section class="section-outer section-link">
+            <div class="section-inner">
+                <div class="section-link-menu">
+                    <div class="section-link-menu-data">
+                        <div class="section-link-menu-data__itext">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8439 15.1095C13.9721 15.1095 13.2627 14.3789 13.2627 13.4809C13.2627 12.583 13.9721 11.8523 14.8439 11.8523C15.7158 11.8523 16.4252 12.583 16.4252 13.4809C16.4252 14.3789 15.7158 15.1095 14.8439 15.1095M5.54592 15.2708C5.90187 14.768 6.11269 14.1495 6.11269 13.4809C6.11269 11.802 4.78658 10.4362 3.15644 10.4362C3.07989 10.4362 3.00416 10.4402 2.92899 10.4461C2.9208 10.3435 2.91582 10.243 2.91582 10.1429C2.91582 7.7513 4.26047 5.58239 6.32541 4.53993C6.79885 5.57287 7.81948 6.28966 9.00019 6.28966C10.1809 6.28966 11.2017 5.57287 11.675 4.53979C13.741 5.58172 15.0846 7.74759 15.0846 10.1429C15.0846 10.2423 15.0792 10.3437 15.0709 10.4461C14.9958 10.4402 14.9204 10.4362 14.8439 10.4362C13.2138 10.4362 11.8877 11.802 11.8877 13.4809C11.8877 14.1495 12.0985 14.768 12.4545 15.2708C11.4451 15.9923 10.24 16.384 9.00019 16.384C7.76459 16.384 6.55486 15.9914 5.54592 15.2708M3.15644 15.1095C2.28459 15.1095 1.57519 14.3789 1.57519 13.4809C1.57519 12.583 2.28459 11.8523 3.15644 11.8523C4.0283 11.8523 4.7377 12.583 4.7377 13.4809C4.7377 14.3789 4.0283 15.1095 3.15644 15.1095M9.00019 1.61635C9.87205 1.61635 10.5814 2.34698 10.5814 3.24492C10.5814 4.14287 9.87205 4.8735 9.00019 4.8735C8.12834 4.8735 7.41894 4.14287 7.41894 3.24492C7.41894 2.34698 8.12834 1.61635 9.00019 1.61635M16.4063 10.8978C16.4362 10.6582 16.4596 10.4041 16.4596 10.1429C16.4596 7.07835 14.6698 4.32074 11.9532 3.11326C11.8859 1.4952 10.5874 0.200195 9.00019 0.200195C7.41289 0.200195 6.11431 1.49534 6.04718 3.1134C3.33193 4.32127 1.54082 7.08306 1.54082 10.1429C1.54082 10.4063 1.56406 10.6627 1.59331 10.8984C0.757586 11.437 0.200195 12.393 0.200195 13.4809C0.200195 15.1598 1.52631 16.5257 3.15645 16.5257C3.62601 16.5257 4.07006 16.4118 4.46472 16.2103C5.75887 17.2369 7.36106 17.8002 9.00019 17.8002C10.6448 17.8002 12.2398 17.2382 13.5355 16.2102C13.9303 16.4118 14.3744 16.5257 14.8439 16.5257C16.4741 16.5257 17.8002 15.1598 17.8002 13.4809C17.8002 12.3925 17.2424 11.4362 16.4063 10.8978" fill="#2F3438"/>
+                            </svg>        
+                        </div>
+                        <div class="section-link-menu-data__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing         
+                        </div>
+                        <div class="section-link-menu-data__itext">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8439 15.1095C13.9721 15.1095 13.2627 14.3789 13.2627 13.4809C13.2627 12.583 13.9721 11.8523 14.8439 11.8523C15.7158 11.8523 16.4252 12.583 16.4252 13.4809C16.4252 14.3789 15.7158 15.1095 14.8439 15.1095M5.54592 15.2708C5.90187 14.768 6.11269 14.1495 6.11269 13.4809C6.11269 11.802 4.78658 10.4362 3.15644 10.4362C3.07989 10.4362 3.00416 10.4402 2.92899 10.4461C2.9208 10.3435 2.91582 10.243 2.91582 10.1429C2.91582 7.7513 4.26047 5.58239 6.32541 4.53993C6.79885 5.57287 7.81948 6.28966 9.00019 6.28966C10.1809 6.28966 11.2017 5.57287 11.675 4.53979C13.741 5.58172 15.0846 7.74759 15.0846 10.1429C15.0846 10.2423 15.0792 10.3437 15.0709 10.4461C14.9958 10.4402 14.9204 10.4362 14.8439 10.4362C13.2138 10.4362 11.8877 11.802 11.8877 13.4809C11.8877 14.1495 12.0985 14.768 12.4545 15.2708C11.4451 15.9923 10.24 16.384 9.00019 16.384C7.76459 16.384 6.55486 15.9914 5.54592 15.2708M3.15644 15.1095C2.28459 15.1095 1.57519 14.3789 1.57519 13.4809C1.57519 12.583 2.28459 11.8523 3.15644 11.8523C4.0283 11.8523 4.7377 12.583 4.7377 13.4809C4.7377 14.3789 4.0283 15.1095 3.15644 15.1095M9.00019 1.61635C9.87205 1.61635 10.5814 2.34698 10.5814 3.24492C10.5814 4.14287 9.87205 4.8735 9.00019 4.8735C8.12834 4.8735 7.41894 4.14287 7.41894 3.24492C7.41894 2.34698 8.12834 1.61635 9.00019 1.61635M16.4063 10.8978C16.4362 10.6582 16.4596 10.4041 16.4596 10.1429C16.4596 7.07835 14.6698 4.32074 11.9532 3.11326C11.8859 1.4952 10.5874 0.200195 9.00019 0.200195C7.41289 0.200195 6.11431 1.49534 6.04718 3.1134C3.33193 4.32127 1.54082 7.08306 1.54082 10.1429C1.54082 10.4063 1.56406 10.6627 1.59331 10.8984C0.757586 11.437 0.200195 12.393 0.200195 13.4809C0.200195 15.1598 1.52631 16.5257 3.15645 16.5257C3.62601 16.5257 4.07006 16.4118 4.46472 16.2103C5.75887 17.2369 7.36106 17.8002 9.00019 17.8002C10.6448 17.8002 12.2398 17.2382 13.5355 16.2102C13.9303 16.4118 14.3744 16.5257 14.8439 16.5257C16.4741 16.5257 17.8002 15.1598 17.8002 13.4809C17.8002 12.3925 17.2424 11.4362 16.4063 10.8978" fill="#2F3438"/>
+                            </svg>     
+                        </div>
+                        <div class="section-link-menu-data__text">
+                            000.000.000         
+                        </div>
+                    </div>
+                    <div class="section-link-menu-network">
+                        <a href="#">
+                            <div class="section-link-menu-network__icon">
+                                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81376 10L1.8 5.625H0V3.75H1.8V2.5C1.8 0.813 2.80291 0 4.24763 0C4.93966 0 5.53444 0.0536687 5.70776 0.0776562V1.84067L4.70578 1.84114C3.92006 1.84114 3.76792 2.23006 3.76792 2.80078V3.75H6L5.4 5.625H3.76792V10H1.81376V10Z" fill="#2F3438"/>
+                                </svg> 
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-link-menu-network__icon">
+                                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53285 4.28571V6H7.22628C7.09489 6.71429 6.43796 8.14286 4.59854 8.14286C3.0219 8.14286 1.77372 6.71429 1.77372 5C1.77372 3.28571 3.08759 1.85714 4.59854 1.85714C5.51825 1.85714 6.10949 2.28571 6.43796 2.64286L7.68613 1.35714C6.89781 0.5 5.84672 0 4.59854 0C2.0365 0 0 2.21429 0 5C0 7.78571 2.0365 10 4.59854 10C7.22628 10 9 8 9 5.14286C9 4.78571 9 4.57143 8.93431 4.28571H4.53285V4.28571V4.28571Z" fill="#2F3438"/>
+                                </svg>      
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-link-menu-network__icon">
+                                <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.03846C10.5875 1.24615 10.175 1.31538 9.69375 1.38462C10.175 1.10769 10.5187 0.692308 10.6562 0.138462C10.2438 0.415385 9.7625 0.553846 9.2125 0.692308C8.8 0.276923 8.18125 0 7.5625 0C6.39375 0 5.3625 1.03846 5.3625 2.28462C5.3625 2.49231 5.3625 2.63077 5.43125 2.76923C3.575 2.7 1.85625 1.8 0.75625 0.415385C0.55 0.761538 0.48125 1.10769 0.48125 1.59231C0.48125 2.35385 0.89375 3.04615 1.5125 3.46154C1.16875 3.46154 0.825 3.32308 0.48125 3.18462V3.18462C0.48125 4.29231 1.2375 5.19231 2.26875 5.4C2.0625 5.46923 1.85625 5.46923 1.65 5.46923C1.5125 5.46923 1.375 5.46923 1.2375 5.4C1.5125 6.3 2.3375 6.99231 3.36875 6.99231C2.6125 7.61538 1.65 7.96154 0.55 7.96154C0.34375 7.96154 0.20625 7.96154 0 7.96154C1.03125 8.58462 2.2 9 3.4375 9C7.5625 9 9.83125 5.53846 9.83125 2.56154C9.83125 2.49231 9.83125 2.35385 9.83125 2.28462C10.3125 1.93846 10.725 1.52308 11 1.03846V1.03846Z" fill="#2F3438"/>
+                                </svg>      
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-link-menu-network__icon">
+                                <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4534 0H0.478261C0.204969 0 0 0.1875 0 0.4375V9.625C0 9.8125 0.204969 10 0.478261 10H10.5217C10.795 10 11 9.8125 11 9.5625V0.4375C10.9317 0.1875 10.7267 0 10.4534 0V0ZM2.91667 9H1V4H3V9H2.91667ZM2 3C1.42857 3 1 2.5 1 2C1 1.42857 1.42857 1 2 1C2.57143 1 3 1.42857 3 2C2.92857 2.5 2.5 3 2 3V3ZM9 8.93671H7.37838V6.59494C7.37838 6.02532 7.37838 5.32911 6.56757 5.32911C5.75676 5.32911 5.62162 5.96203 5.62162 6.59494V9H4V4.12658H5.55405V4.75949V4.75949C5.75676 4.37975 6.2973 4 7.04054 4C8.66216 4 8.93243 5.01266 8.93243 6.27848V8.93671H9Z" fill="#2F3438"/>
+                                </svg>       
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-link-menu-network__icon">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00001 0C4.3705 0 4.16617 0.00690694 3.52621 0.0361066C2.88758 0.0652349 2.45142 0.166672 2.06977 0.315004C1.67522 0.468314 1.34061 0.673474 1.00703 1.00703C0.673474 1.34061 0.468314 1.67522 0.315004 2.06977C0.166672 2.45142 0.0652349 2.88758 0.0361066 3.52621C0.00690694 4.16617 0 4.3705 0 6.00001C0 7.6295 0.00690694 7.83383 0.0361066 8.47379C0.0652349 9.11242 0.166672 9.54858 0.315004 9.93023C0.468314 10.3248 0.673474 10.6594 1.00703 10.993C1.34061 11.3265 1.67522 11.5317 2.06977 11.685C2.45142 11.8333 2.88758 11.9348 3.52621 11.9639C4.16617 11.9931 4.3705 12 6.00001 12C7.6295 12 7.83383 11.9931 8.47379 11.9639C9.11242 11.9348 9.54858 11.8333 9.93023 11.685C10.3248 11.5317 10.6594 11.3265 10.993 10.993C11.3265 10.6594 11.5317 10.3248 11.685 9.93023C11.8333 9.54858 11.9348 9.11242 11.9639 8.47379C11.9931 7.83383 12 7.6295 12 6.00001C12 4.3705 11.9931 4.16617 11.9639 3.52621C11.9348 2.88758 11.8333 2.45142 11.685 2.06977C11.5317 1.67522 11.3265 1.34061 10.993 1.00703C10.6594 0.673474 10.3248 0.468314 9.93023 0.315004C9.54858 0.166672 9.11242 0.0652349 8.47379 0.0361066C7.83383 0.00690694 7.6295 0 6.00001 0ZM6.00001 1.08108C7.60207 1.08108 7.79184 1.0872 8.42451 1.11607C9.00951 1.14274 9.3272 1.24049 9.53863 1.32266C9.81869 1.4315 10.0186 1.56152 10.2285 1.77149C10.4385 1.98143 10.5685 2.18131 10.6773 2.46137C10.7595 2.6728 10.8573 2.99049 10.8839 3.57549C10.9128 4.20816 10.9189 4.39793 10.9189 6.00001C10.9189 7.60207 10.9128 7.79184 10.8839 8.42451C10.8573 9.00951 10.7595 9.3272 10.6773 9.53863C10.5685 9.81869 10.4385 10.0186 10.2285 10.2285C10.0186 10.4385 9.81869 10.5685 9.53863 10.6773C9.3272 10.7595 9.00951 10.8573 8.42451 10.8839C7.79193 10.9128 7.60218 10.9189 6.00001 10.9189C4.39782 10.9189 4.20809 10.9128 3.57549 10.8839C2.99049 10.8573 2.6728 10.7595 2.46137 10.6773C2.18131 10.5685 1.98143 10.4385 1.77149 10.2285C1.56154 10.0186 1.4315 9.81869 1.32266 9.53863C1.24049 9.3272 1.14274 9.00951 1.11607 8.42451C1.0872 7.79184 1.08108 7.60207 1.08108 6.00001C1.08108 4.39793 1.0872 4.20816 1.11607 3.57549C1.14274 2.99049 1.24049 2.6728 1.32266 2.46137C1.4315 2.18131 1.56152 1.98143 1.77149 1.77149C1.98143 1.56152 2.18131 1.4315 2.46137 1.32266C2.6728 1.24049 2.99049 1.14274 3.57549 1.11607C4.20816 1.0872 4.39793 1.08108 6.00001 1.08108ZM2.91892 6.00001C2.91892 4.29836 4.29836 2.91892 6.00001 2.91892C7.70164 2.91892 9.08108 4.29836 9.08108 6.00001C9.08108 7.70164 7.70164 9.08108 6.00001 9.08108C4.29836 9.08108 2.91892 7.70164 2.91892 6.00001ZM6.00001 8C4.89543 8 4 7.10457 4 6.00001C4 4.89543 4.89543 4 6.00001 4C7.10457 4 8 4.89543 8 6.00001C8 7.10457 7.10457 8 6.00001 8ZM9.20281 3.51718C9.60046 3.51718 9.92282 3.19484 9.92282 2.79719C9.92282 2.39954 9.60046 2.07718 9.20281 2.07718C8.80518 2.07718 8.48282 2.39954 8.48282 2.79719C8.48282 3.19484 8.80518 3.51718 9.20281 3.51718Z" fill="#2F3438"/>
+                                </svg>    
+                            </div>
+                        </a> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / link -->
+        
+        <!-- menu -->
+        <section class="section-outer section-menu">
+            <div class="section-inner">
+                <div class="section-menu-navigation">
+                    <div class="section-menu-navigation-logo">
+                        <a href="#">
+                            <img src="./img/logo.svg" alt="alternate text">
+                        </a>      
+                    </div>
+                    <ul class="section-menu-navigation-link">
+                        <li class="section-menu-navigation-link-li"><a href="#">About</a></li>
+                        <li class="section-menu-navigation-link-li"><a href="#">Services</a></li>
+                        <li class="section-menu-navigation-link-li"><a href="#">Portfolio</a></li>
+                    </ul>
+                    <div class="section-menu-navigation-link-mobile" onclick="clickMenu()">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="#000000">
+                            <path d="M 0 2 L 0 4 L 24 4 L 24 2 Z M 0 11 L 0 13 L 24 13 L 24 11 Z M 0 20 L 0 22 L 24 22 L 24 20 Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <ul class="section-menu-navigation-mobile main-menu-element" hidden>
+                <a href="#"><li class="section-menu-navigation-mobile-li">About</li></a>
+                <a href="#"><li class="section-menu-navigation-mobile-li">Services</li></a>
+                <a href="#"><li class="section-menu-navigation-mobile-li">Portfolio</li></a>
+            </ul>
+        </section>
+        <!-- / menu -->
+
+        <!-- header -->
+        <section class="section-header">
+            <div class="section-header-wrapper">
+                <div class="section-header-wrapper-item" style="background-image: url(./img/slide.png);">
+                    <div class="section-inner">
+                        <div class="section-header-wrapper-item-content">
+                            <h1 class="section-header-wrapper-item-content-h1">1 Innovative solutions <br> to boost your creative projects</h1>
+                            <p class="section-header-wrapper-item-content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <button class="section-header-wrapper-item-content-button">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-header-wrapper-item" style="background-image: url(./img/slide.png);">
+                    <div class="section-inner">
+                        <div class="section-header-wrapper-item-content">
+                            <h1 class="section-header-wrapper-item-content-h1">2 Innovative solutions <br> to boost your creative projects</h1>
+                            <p class="section-header-wrapper-item-content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <button class="section-header-wrapper-item-content-button">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-header-wrapper-item" style="background-image: url(./img/slide.png);">
+                    <div class="section-inner">
+                        <div class="section-header-wrapper-item-content">
+                            <h1 class="section-header-wrapper-item-content-h1">3 Innovative solutions <br> to boost your creative projects</h1>
+                            <p class="section-header-wrapper-item-content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <button class="section-header-wrapper-item-content-button">Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-header-wrapper-item" style="background-image: url(./img/slide.png);">
+                    <div class="section-inner">
+                        <div class="section-header-wrapper-item-content">
+                            <h1 class="section-header-wrapper-item-content-h1">4 Innovative solutions <br> to boost your creative projects</h1>
+                            <p class="section-header-wrapper-item-content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <button class="section-header-wrapper-item-content-button">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-header-arrows back" onclick="clickSlide('back', 1)" hidden>
+                <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7 10.2629L6.21417 11L0 5.50018L6.21417 0L7 0.737251L1.61935 5.50018L7 10.2629Z" fill="white"/>
+                </svg>        
+            </div>
+            <div class="section-header-arrows forward" onclick="clickSlide('forward', 1)">
+                <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.737103L0.78583 0L7 5.49982L0.78583 11L0 10.2627L5.38065 5.49982L0 0.737103Z" fill="white"/>
+                </svg>        
+            </div>   
+            <div class="section-header-interface">
+                <div class="section-header-interface-circle active" onclick="clickSlide('circle', 0)"></div>
+                <div class="section-header-interface-circle" onclick="clickSlide('circle', 1)"></div>
+                <div class="section-header-interface-circle" onclick="clickSlide('circle', 2)"></div>
+                <div class="section-header-interface-circle" onclick="clickSlide('circle', 3)"></div>
+            </div>
+        </section>
+        <!-- / header -->
+    
+            
+        <!-- text-1 -->
+        <section class="section-outer section-text-1">
+            <div class="section-inner">
+                <div class="section-text-1-block">
+                    <span class="section-text-1-block-span">NULLA SUSCIPIT LACINA VOLUTPA</span>
+                    <h2 class="section-text-1-block-h2">Innovative solutions to boost your creative projects</h2>
+                    <p class="section-text-1-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+        <!-- / text-1 -->
+            
+        <!-- features -->
+        <section class="section-outer section-features">
+            <div class="section-inner">
+                <div class="section-features-content">
+                    <div class="section-features-content-block">
+                        <div class="section-features-content-block-icon">
+                            <svg width="46" height="34" viewBox="0 0 46 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.600098 4.13372V0.400391H8.06676H37.9334H45.4001V4.13372H44.1428C44.9369 5.46848 45.4001 7.07359 45.4001 8.80039V25.6004C45.4001 30.2396 42.0572 34.0004 37.9334 34.0004H8.06676C3.94304 34.0004 0.600098 30.2396 0.600098 25.6004V8.80039C0.600098 7.07359 1.06326 5.46848 1.85744 4.13372H0.600098ZM8.06676 4.13372H37.9334C39.9953 4.13372 41.6668 6.08377 41.6668 8.48928V25.9115C41.6668 28.317 39.9953 30.2671 37.9334 30.2671H8.06676C6.0049 30.2671 4.33343 28.317 4.33343 25.9115V8.48928C4.33343 6.08377 6.0049 4.13372 8.06676 4.13372ZM10.8668 17.2004C11.5839 17.2004 12.2381 16.9308 12.7334 16.4874C13.2288 16.9308 13.883 17.2004 14.6001 17.2004C16.1465 17.2004 17.4001 15.9468 17.4001 14.4004C17.4001 12.854 16.1465 11.6004 14.6001 11.6004C13.883 11.6004 13.2288 11.87 12.7334 12.3134C12.2381 11.87 11.5839 11.6004 10.8668 11.6004C9.32037 11.6004 8.06676 12.854 8.06676 14.4004C8.06676 15.9468 9.32037 17.2004 10.8668 17.2004Z" fill="#1F84D9"/>
+                            </svg>
+                        </div>
+                        <h3 class="section-features-content-block-h3">Feature</h3>
+                        <p class="section-features-content-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                    <div class="section-features-content-block">
+                        <div class="section-features-content-block-icon">
+                            <svg width="44" height="38" viewBox="0 0 44 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0668 37.6663C21.4556 37.6663 20.8661 37.4499 20.407 37.0567C18.6728 35.5746 17.0005 34.1814 15.5251 32.9529L15.5178 32.9464C11.1922 29.3436 7.45736 26.2323 4.85821 23.1678C1.95306 19.7413 0.600098 16.4929 0.600098 12.9439C0.600098 9.49617 1.80972 6.31509 4.00614 3.9866C6.22828 1.63068 9.278 0.333008 12.5937 0.333008C15.0722 0.333008 17.3415 1.09883 19.3392 2.60905C20.3478 3.37104 21.2618 4.30416 22.0668 5.39224C22.872 4.30416 23.7858 3.37104 24.7941 2.60905C26.7918 1.09883 29.0614 0.333008 31.5399 0.333008C34.8553 0.333008 37.905 1.63068 40.1276 3.9866C42.324 6.31509 43.5334 9.49617 43.5334 12.9439C43.5334 16.4929 42.1807 19.7413 39.2757 23.1674C36.6765 26.2323 32.942 29.3433 28.6173 32.9455C27.1394 34.1762 25.4645 35.5717 23.7258 37.0575C23.2672 37.4499 22.6777 37.6663 22.0668 37.6663Z" fill="#1F84D9"/>
+                            </svg>        
+                        </div>
+                        <h3 class="section-features-content-block-h3">Feature</h3>
+                        <p class="section-features-content-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                    <div class="section-features-content-block">
+                        <div class="section-features-content-block-icon">
+                            <svg width="30" height="38" viewBox="0 0 30 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.2 0.333008H3.79998C1.73812 0.333008 0.0666504 2.00448 0.0666504 4.06634V33.933C0.0666504 35.9949 1.73812 37.6663 3.79998 37.6663H26.2C28.2618 37.6663 29.9333 35.9949 29.9333 33.933V4.06634C29.9333 2.00448 28.2618 0.333008 26.2 0.333008ZM10.9125 25.0184L3.79998 29.7637V4.06634H26.2V18.1228L26.1514 18.096L22.9301 23.9182C22.918 23.9398 22.918 23.94 22.9057 23.9611L22.9056 23.9613L22.9055 23.9616C22.2974 25.0037 20.9596 25.3556 19.9174 24.7475C17.1106 23.1097 13.6158 23.2149 10.9125 25.0184ZM26.1968 25.7256L26.2 25.7198V33.933H4.27763L12.9845 28.124C14.5009 27.1123 16.4614 27.0533 18.0359 27.972C20.8589 29.6193 24.4828 28.6661 26.13 25.8431L26.1301 25.8429C26.1638 25.7846 26.1639 25.7845 26.1968 25.7256ZM11.2667 18.9997C8.17386 18.9997 5.66665 16.4925 5.66665 13.3997C5.66665 10.3069 8.17386 7.79967 11.2667 7.79967C14.3594 7.79967 16.8667 10.3069 16.8667 13.3997C16.8667 16.4925 14.3594 18.9997 11.2667 18.9997ZM11.2667 15.2663C12.2976 15.2663 13.1333 14.4306 13.1333 13.3997C13.1333 12.3687 12.2976 11.533 11.2667 11.533C10.2357 11.533 9.39998 12.3687 9.39998 13.3997C9.39998 14.4306 10.2357 15.2663 11.2667 15.2663Z" fill="#1F84D9"/>
+                            </svg>        
+                        </div>
+                        <h3 class="section-features-content-block-h3">Feature</h3>
+                        <p class="section-features-content-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / features -->
+            
+        <!-- about -->
+        <section class="section-outer section-about">
+            <div class="section-inner">
+                <div class="section-about-content">
+                    <div class="section-about-content-text">
+                        <span class="section-about-content-text-span">NULLA SUSCIPIT LACINA VOLUTPA</span>
+                        <h2 class="section-about-content-text-h2">About the product</h2>
+                        <p class="section-about-content-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="section-about-content-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="section-about-content-text-icon">
+                            <a href="#">
+                                <div class="icon">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8524 13.4233C18.6816 13.5973 18.5794 13.8162 18.5511 14.0433C18.523 14.2675 18.5668 14.4996 18.6874 14.7053C18.7209 14.7677 18.8257 14.9711 18.8401 15.2384C18.8634 15.6644 18.6226 16.024 18.1875 16.3413C17.9946 16.485 17.8597 16.6811 17.7934 16.8968C17.7287 17.1075 17.7292 17.337 17.8053 17.5558C17.8275 17.6341 17.9123 17.9746 17.7246 18.3003C17.4738 18.7367 16.8868 19.0061 16.0591 19.1768C15.2804 19.3401 14.2229 19.3647 12.926 19.2656C9.99856 19.322 7.16564 18.9763 7.01479 18.957V11.8613C7.01479 11.7103 6.99904 11.5612 6.97004 11.4172C7.06627 10.9939 7.24781 10.5686 7.59171 10.191C9.71008 8.48258 11.7428 3.16154 11.8356 2.91513C11.9025 2.73127 11.9186 2.55153 11.8874 2.3721C11.8555 2.16472 11.8445 1.93546 11.8525 1.73653C12.0135 1.78911 12.1906 1.88244 12.3215 2.0586C12.7219 2.5967 12.616 3.57063 12.1969 4.80769C11.7993 5.9786 11.5892 6.87322 11.5516 7.54221C11.5037 8.39277 11.7298 8.92433 12.1183 9.25939C12.5485 9.63344 13.117 9.67597 13.549 9.54357C13.8362 9.47797 14.0747 9.43036 14.3015 9.39427C15.6161 9.11544 17.8919 8.85385 18.6782 9.55005C18.8218 9.67756 18.8854 9.81769 18.8983 9.95186C18.9251 10.2315 18.7787 10.4745 18.7465 10.5255C18.5963 10.7505 18.5438 11.0084 18.5789 11.2554C18.6136 11.4998 18.7347 11.7345 18.9369 11.914C18.9858 11.9599 19.2637 12.2324 19.2779 12.5995C19.2908 12.8773 19.1266 13.1476 18.8524 13.4233ZM2.24168 18.8632C1.97199 18.8632 1.75557 18.6269 1.75557 18.3406V12.5226C1.75557 12.2328 1.97531 12.0002 2.24168 12.0002H4.27268C4.54228 12.0002 4.7587 12.2364 4.7587 12.5226V18.3371C4.7587 18.6269 4.53904 18.8595 4.27268 18.8595H2.24168V18.8632ZM20.3697 14.2766C20.8125 13.7277 21.0248 13.1392 20.9977 12.5334C20.9751 11.9745 20.7561 11.5175 20.537 11.1953C20.463 11.0865 20.4416 10.9522 20.4823 10.828C20.7154 10.1182 20.7316 9.11574 19.8368 8.32188C19.1184 7.68511 17.8987 7.39966 16.209 7.47883C15.021 7.53141 14.0272 7.74665 13.9865 7.75526H13.982C13.9328 7.76392 13.883 7.77294 13.8325 7.78237C13.5341 7.83805 13.2692 7.5916 13.3146 7.29954C13.3787 6.88656 13.525 6.26537 13.8373 5.34433C14.4698 3.47355 14.4337 2.04204 13.7199 1.08458C12.97 0.0791639 11.7729 0 11.4204 0C11.0816 0 10.7698 0.136019 10.5486 0.386568C10.0792 0.916475 10.1005 1.86592 10.1571 2.38154C10.1644 2.44846 10.156 2.51556 10.1315 2.57851C9.50492 4.18937 7.87244 7.86891 6.48728 8.90606C6.46017 8.9234 6.43759 8.94535 6.415 8.96731C6.11298 9.27688 5.88258 9.6049 5.70634 9.91605C5.60436 10.0961 5.388 10.1784 5.18585 10.1183C5.01195 10.0666 4.82739 10.0388 4.63506 10.0388H1.87932C0.840274 10.0388 0 10.8603 0 11.8657V19.0019C0 20.0119 0.844672 20.829 1.87932 20.829H4.63506C4.98442 20.829 5.31318 20.736 5.59502 20.5733C5.67989 20.5243 5.77814 20.5018 5.8762 20.5131L6.78092 20.618C6.94314 20.6399 9.8223 20.9941 12.7836 20.9391C12.7963 20.9389 12.8093 20.9392 12.822 20.9401C13.3524 20.9785 13.8521 21 14.3161 21C15.1248 21 15.8295 20.9388 16.4168 20.8156C17.7994 20.5302 18.7434 19.9593 19.2224 19.1206C19.5334 18.5757 19.5801 18.0338 19.5509 17.6354C19.5418 17.5105 19.5883 17.3887 19.6788 17.2998C20.4463 16.5473 20.5849 15.7383 20.5551 15.1593C20.537 14.8036 20.4556 14.5006 20.3697 14.2766Z" fill="#2F3438"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="icon">
+                                    <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.11 13.1845V2.26089C23.11 1.05431 22.1151 0.0761719 20.8879 0.0761719H3.11168C1.88449 0.0761719 0.889648 1.05431 0.889648 2.26089V13.1845C0.889648 14.3911 1.88449 15.3692 3.11168 15.3692H20.8879C22.1151 15.3692 23.11 14.3911 23.11 13.1845ZM3.11168 2.26089H20.8879V13.1845H3.11168V2.26089ZM7.63036 17.9996C7.17789 17.9996 6.81109 17.6265 6.81109 17.1663C6.81109 16.7061 7.17789 16.3331 7.63036 16.3331H16.3693C16.8217 16.3331 17.1885 16.7061 17.1885 17.1663C17.1885 17.6265 16.8217 17.9996 16.3693 17.9996H7.63036ZM9.59661 4.89916C9.59661 4.67049 9.84219 4.52589 10.0421 4.63682L15.1317 7.46036C15.3377 7.57462 15.3377 7.87078 15.1317 7.98503L10.0421 10.8086C9.84219 10.9195 9.59661 10.7749 9.59661 10.5462V4.89916Z" fill="#2F3438"/>
+                                    </svg>      
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="icon">
+                                    <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.7 0H15.3C16.4479 0 17.4285 0.795975 17.8192 1.91829L22.7516 0.65355C23.2866 0.516376 23.8315 0.83886 23.9687 1.37384C23.9895 1.45499 24 1.53844 24 1.62221V12.378C24 12.9303 23.5523 13.378 23 13.378C22.9162 13.378 22.8328 13.3675 22.7516 13.3467L17.8191 12.0819C17.4284 13.2041 16.4479 14 15.3 14H2.7C1.20883 14 0 12.6569 0 11V3C0 1.34315 1.20883 0 2.7 0ZM16 11V3C16 2.44772 15.6082 2 15.125 2H2.875C2.39175 2 2 2.44772 2 3V11C2 11.5523 2.39175 12 2.875 12H15.125C15.6082 12 16 11.5523 16 11ZM18 10.0636L22 11.0893V2.91097L18 3.93661V10.0636ZM13.5 5.00012C14.0523 5.00012 14.5 4.55241 14.5 4.00012C14.5 3.44784 14.0523 3.00012 13.5 3.00012C12.9477 3.00012 12.5 3.44784 12.5 4.00012C12.5 4.55241 12.9477 5.00012 13.5 5.00012ZM12 4.00012C12 4.55241 11.5523 5.00012 11 5.00012C10.4477 5.00012 10 4.55241 10 4.00012C10 3.44784 10.4477 3.00012 11 3.00012C11.5523 3.00012 12 3.44784 12 4.00012Z" fill="#2F3438"/>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="icon">
+                                    <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.395398 7.35122L11.0063 0.15122C11.3034 -0.0503593 11.6904 -0.0504106 11.9875 0.15109L22.6044 7.35109C23.3327 7.84497 22.9891 9 22.1139 9H20.3449V18.6364C20.3449 19.3895 19.7509 20 19.0182 20H3.98184C3.2491 20 2.6551 19.3895 2.6551 18.6364V9H0.88612C0.0110584 9 -0.332635 7.84522 0.395398 7.35122ZM3.80671 7.2H19.1919L11.4971 1.98167L3.80671 7.2ZM4.42408 9.09091V18.1818H18.5759V9.09091H4.42408Z" fill="#2F3438"/>
+                                    </svg>       
+                                </div>
+                            </a>
+                        </div>  
+                        <p class="section-about-content-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                    <div class="section-about-content-img">
+                        <svg width="489" height="263" viewBox="0 0 489 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M418.578 0.000976562H70.5079C65.6799 0.000976562 61.7314 3.9478 61.7314 8.76734V240.588H427.346V8.76734C427.346 3.9478 423.397 0.000976562 418.578 0.000976562Z" fill="#3D3D3F"/>
+                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="254" width="489" height="9">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000488281 254.187H488.467V262.226H0.000488281V254.187Z" fill="white"/>
+                            </mask>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M466.529 262.226H21.939L0.000488281 254.187H488.468L466.529 262.226Z" fill="#81858A"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M245.755 9.04744C245.755 9.90378 245.066 10.5981 244.202 10.5981C243.346 10.5981 242.649 9.90378 242.649 9.04744C242.649 8.18563 243.346 7.49219 244.202 7.49219C245.066 7.49219 245.755 8.18563 245.755 9.04744Z" fill="#868789"/>
+                            <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="489" height="263">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 262.226H488.467V0H0V262.226Z" fill="white"/>
+                            </mask>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M204.502 248.585H283.661V240.551H204.502V248.585Z" fill="#B0B2B3"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M277.383 240.55V243.469C277.383 245.479 275.738 247.126 273.728 247.126H214.493C212.487 247.126 210.841 245.479 210.841 243.469V240.55H0.000488281V254.186H488.468V240.55H277.383Z" fill="#CFD5DA"/>
+                            <rect x="77.4023" y="15.4707" width="335.106" height="216.588" fill="#184871"/>
+                            <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="234" y="111" width="21" height="24">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M234.938 111.935H254.906V134.685H234.938V111.935Z" fill="white"/>
+                            </mask>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M239.242 132.848L247.623 127.894L251.799 132.848H239.242ZM241.666 118.187C241.666 118.655 241.276 119.037 240.797 119.037C240.319 119.037 239.929 118.655 239.929 118.187C239.929 117.718 240.319 117.337 240.797 117.337C241.276 117.337 241.666 117.718 241.666 118.187ZM236.808 113.765H247.27C250.493 113.765 252.267 115.983 252.807 117.882C253.347 119.782 252.999 122.578 250.241 124.209L248.038 125.511L243.093 119.643C243.372 119.223 243.535 118.724 243.535 118.187C243.535 116.709 242.307 115.506 240.797 115.506C239.288 115.506 238.06 116.709 238.06 118.187C238.06 119.665 239.288 120.867 240.797 120.867C241.077 120.867 241.347 120.826 241.601 120.749L246.42 126.467L236.808 132.148V113.765ZM249.241 126.938L251.207 125.776C254.216 123.997 255.551 120.706 254.608 117.391C253.665 114.076 250.785 111.935 247.27 111.935H235.873C235.357 111.935 234.938 112.344 234.938 112.85V133.77C234.938 133.777 234.94 133.783 234.94 133.79C234.941 133.817 234.942 133.844 234.945 133.87C234.948 133.891 234.951 133.91 234.955 133.93C234.957 133.942 234.959 133.953 234.962 133.965C235.018 134.217 235.179 134.438 235.414 134.567C235.557 134.646 235.715 134.685 235.873 134.685C235.906 134.685 235.939 134.682 235.972 134.679H253.782C254.144 134.679 254.473 134.474 254.628 134.154C254.782 133.833 254.733 133.454 254.503 133.181L249.241 126.938Z" fill="white"/>
+                        </svg>        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / about -->
+            
+        <!-- text-2 -->
+        <section class="section-outer section-text-2">
+            <div class="section-inner">
+                <div class="section-text-2-block">
+                    <span class="section-text-2-block-span">NULLA SUSCIPIT LACINA VOLUTPA</span>
+                    <h2 class="section-text-2-block-h2">Innovative solutions to boost your creative projects</h2>
+                    <p class="section-text-2-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+        <!-- / text-2 -->
+            
+        <!-- portfolio  -->
+        <section class="section-outer section-portfolio">
+            <div class="section-inner">
+                <div class="section-portfolio-block">
+                    <h2 class="section-portfolio-block-h2">Recent Work</h2>
+                    <p class="section-portfolio-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="section-portfolio-components">
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">    
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                    <div class="section-portfolio-components-img">
+                        <img width="100%" height="100%" src="./img/dark-image.png" alt="alternate text">
+                        <div class="section-portfolio-components-img-text">
+                            <h2 class="section-portfolio-components-img-text-h2">Project Title</h2>
+                            <span class="section-portfolio-components-img-text-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / portfolio -->
+            
+        <!-- actions -->
+        <section class="section-outer section-actions">
+            <div class="section-inner">
+                <div class="section-actions-block">
+                    <h2 class="section-actions-block-h2">Stay Connected</h2>
+                    <p class="section-actions-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button class="section-actions-block-button">BUY NOW</button>
+                </div>
+            </div>
+        </section>
+        <!-- / actions -->
+            
+        <!-- team -->
+        <section class="section-outer section-team">
+            <div class="section-inner">
+                <div class="section-team-block">
+                    <h2 class="section-team-block-h2">Recent Work</h2>
+                    <p class="section-team-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="section-team-components">
+                    <div class="section-team-components-people">
+                        <img width="100%" src="./img/female-1.png" alt="alternate text">
+                        <h2 class="section-team-components-people-h2">Name Surname</h2>
+                        <span class="section-team-components-people-span">REALWIRE PLANING</span>
+                        <hr class="section-team-components-people-hr">
+                        <p class="section-team-components-people-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="section-team-components-people-network">
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81376 10L1.8 5.625H0V3.75H1.8V2.5C1.8 0.813 2.80291 0 4.24763 0C4.93966 0 5.53444 0.0536687 5.70776 0.0776562V1.84067L4.70578 1.84114C3.92006 1.84114 3.76792 2.23006 3.76792 2.80078V3.75H6L5.4 5.625H3.76792V10H1.81376V10Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53285 4.28571V6H7.22628C7.09489 6.71429 6.43796 8.14286 4.59854 8.14286C3.0219 8.14286 1.77372 6.71429 1.77372 5C1.77372 3.28571 3.08759 1.85714 4.59854 1.85714C5.51825 1.85714 6.10949 2.28571 6.43796 2.64286L7.68613 1.35714C6.89781 0.5 5.84672 0 4.59854 0C2.0365 0 0 2.21429 0 5C0 7.78571 2.0365 10 4.59854 10C7.22628 10 9 8 9 5.14286C9 4.78571 9 4.57143 8.93431 4.28571H4.53285V4.28571V4.28571Z" fill="#2F3438"></path>
+                                    </svg>       
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.03846C10.5875 1.24615 10.175 1.31538 9.69375 1.38462C10.175 1.10769 10.5187 0.692308 10.6562 0.138462C10.2438 0.415385 9.7625 0.553846 9.2125 0.692308C8.8 0.276923 8.18125 0 7.5625 0C6.39375 0 5.3625 1.03846 5.3625 2.28462C5.3625 2.49231 5.3625 2.63077 5.43125 2.76923C3.575 2.7 1.85625 1.8 0.75625 0.415385C0.55 0.761538 0.48125 1.10769 0.48125 1.59231C0.48125 2.35385 0.89375 3.04615 1.5125 3.46154C1.16875 3.46154 0.825 3.32308 0.48125 3.18462V3.18462C0.48125 4.29231 1.2375 5.19231 2.26875 5.4C2.0625 5.46923 1.85625 5.46923 1.65 5.46923C1.5125 5.46923 1.375 5.46923 1.2375 5.4C1.5125 6.3 2.3375 6.99231 3.36875 6.99231C2.6125 7.61538 1.65 7.96154 0.55 7.96154C0.34375 7.96154 0.20625 7.96154 0 7.96154C1.03125 8.58462 2.2 9 3.4375 9C7.5625 9 9.83125 5.53846 9.83125 2.56154C9.83125 2.49231 9.83125 2.35385 9.83125 2.28462C10.3125 1.93846 10.725 1.52308 11 1.03846V1.03846Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4534 0H0.478261C0.204969 0 0 0.1875 0 0.4375V9.625C0 9.8125 0.204969 10 0.478261 10H10.5217C10.795 10 11 9.8125 11 9.5625V0.4375C10.9317 0.1875 10.7267 0 10.4534 0V0ZM2.91667 9H1V4H3V9H2.91667ZM2 3C1.42857 3 1 2.5 1 2C1 1.42857 1.42857 1 2 1C2.57143 1 3 1.42857 3 2C2.92857 2.5 2.5 3 2 3V3ZM9 8.93671H7.37838V6.59494C7.37838 6.02532 7.37838 5.32911 6.56757 5.32911C5.75676 5.32911 5.62162 5.96203 5.62162 6.59494V9H4V4.12658H5.55405V4.75949V4.75949C5.75676 4.37975 6.2973 4 7.04054 4C8.66216 4 8.93243 5.01266 8.93243 6.27848V8.93671H9Z" fill="#2F3438"></path>
+                                    </svg>          
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00001 0C4.3705 0 4.16617 0.00690694 3.52621 0.0361066C2.88758 0.0652349 2.45142 0.166672 2.06977 0.315004C1.67522 0.468314 1.34061 0.673474 1.00703 1.00703C0.673474 1.34061 0.468314 1.67522 0.315004 2.06977C0.166672 2.45142 0.0652349 2.88758 0.0361066 3.52621C0.00690694 4.16617 0 4.3705 0 6.00001C0 7.6295 0.00690694 7.83383 0.0361066 8.47379C0.0652349 9.11242 0.166672 9.54858 0.315004 9.93023C0.468314 10.3248 0.673474 10.6594 1.00703 10.993C1.34061 11.3265 1.67522 11.5317 2.06977 11.685C2.45142 11.8333 2.88758 11.9348 3.52621 11.9639C4.16617 11.9931 4.3705 12 6.00001 12C7.6295 12 7.83383 11.9931 8.47379 11.9639C9.11242 11.9348 9.54858 11.8333 9.93023 11.685C10.3248 11.5317 10.6594 11.3265 10.993 10.993C11.3265 10.6594 11.5317 10.3248 11.685 9.93023C11.8333 9.54858 11.9348 9.11242 11.9639 8.47379C11.9931 7.83383 12 7.6295 12 6.00001C12 4.3705 11.9931 4.16617 11.9639 3.52621C11.9348 2.88758 11.8333 2.45142 11.685 2.06977C11.5317 1.67522 11.3265 1.34061 10.993 1.00703C10.6594 0.673474 10.3248 0.468314 9.93023 0.315004C9.54858 0.166672 9.11242 0.0652349 8.47379 0.0361066C7.83383 0.00690694 7.6295 0 6.00001 0ZM6.00001 1.08108C7.60207 1.08108 7.79184 1.0872 8.42451 1.11607C9.00951 1.14274 9.3272 1.24049 9.53863 1.32266C9.81869 1.4315 10.0186 1.56152 10.2285 1.77149C10.4385 1.98143 10.5685 2.18131 10.6773 2.46137C10.7595 2.6728 10.8573 2.99049 10.8839 3.57549C10.9128 4.20816 10.9189 4.39793 10.9189 6.00001C10.9189 7.60207 10.9128 7.79184 10.8839 8.42451C10.8573 9.00951 10.7595 9.3272 10.6773 9.53863C10.5685 9.81869 10.4385 10.0186 10.2285 10.2285C10.0186 10.4385 9.81869 10.5685 9.53863 10.6773C9.3272 10.7595 9.00951 10.8573 8.42451 10.8839C7.79193 10.9128 7.60218 10.9189 6.00001 10.9189C4.39782 10.9189 4.20809 10.9128 3.57549 10.8839C2.99049 10.8573 2.6728 10.7595 2.46137 10.6773C2.18131 10.5685 1.98143 10.4385 1.77149 10.2285C1.56154 10.0186 1.4315 9.81869 1.32266 9.53863C1.24049 9.3272 1.14274 9.00951 1.11607 8.42451C1.0872 7.79184 1.08108 7.60207 1.08108 6.00001C1.08108 4.39793 1.0872 4.20816 1.11607 3.57549C1.14274 2.99049 1.24049 2.6728 1.32266 2.46137C1.4315 2.18131 1.56152 1.98143 1.77149 1.77149C1.98143 1.56152 2.18131 1.4315 2.46137 1.32266C2.6728 1.24049 2.99049 1.14274 3.57549 1.11607C4.20816 1.0872 4.39793 1.08108 6.00001 1.08108ZM2.91892 6.00001C2.91892 4.29836 4.29836 2.91892 6.00001 2.91892C7.70164 2.91892 9.08108 4.29836 9.08108 6.00001C9.08108 7.70164 7.70164 9.08108 6.00001 9.08108C4.29836 9.08108 2.91892 7.70164 2.91892 6.00001ZM6.00001 8C4.89543 8 4 7.10457 4 6.00001C4 4.89543 4.89543 4 6.00001 4C7.10457 4 8 4.89543 8 6.00001C8 7.10457 7.10457 8 6.00001 8ZM9.20281 3.51718C9.60046 3.51718 9.92282 3.19484 9.92282 2.79719C9.92282 2.39954 9.60046 2.07718 9.20281 2.07718C8.80518 2.07718 8.48282 2.39954 8.48282 2.79719C8.48282 3.19484 8.80518 3.51718 9.20281 3.51718Z" fill="#2F3438"></path>
+                                    </svg>         
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-team-components-people">
+                        <img width="100%" src="./img/female-2.png" alt="alternate text">
+                        <h2 class="section-team-components-people-h2">Name Surname</h2>
+                        <span class="section-team-components-people-span">REALWIRE PLANING</span>
+                        <hr class="section-team-components-people-hr">
+                        <p class="section-team-components-people-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="section-team-components-people-network">
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81376 10L1.8 5.625H0V3.75H1.8V2.5C1.8 0.813 2.80291 0 4.24763 0C4.93966 0 5.53444 0.0536687 5.70776 0.0776562V1.84067L4.70578 1.84114C3.92006 1.84114 3.76792 2.23006 3.76792 2.80078V3.75H6L5.4 5.625H3.76792V10H1.81376V10Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53285 4.28571V6H7.22628C7.09489 6.71429 6.43796 8.14286 4.59854 8.14286C3.0219 8.14286 1.77372 6.71429 1.77372 5C1.77372 3.28571 3.08759 1.85714 4.59854 1.85714C5.51825 1.85714 6.10949 2.28571 6.43796 2.64286L7.68613 1.35714C6.89781 0.5 5.84672 0 4.59854 0C2.0365 0 0 2.21429 0 5C0 7.78571 2.0365 10 4.59854 10C7.22628 10 9 8 9 5.14286C9 4.78571 9 4.57143 8.93431 4.28571H4.53285V4.28571V4.28571Z" fill="#2F3438"></path>
+                                    </svg>       
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.03846C10.5875 1.24615 10.175 1.31538 9.69375 1.38462C10.175 1.10769 10.5187 0.692308 10.6562 0.138462C10.2438 0.415385 9.7625 0.553846 9.2125 0.692308C8.8 0.276923 8.18125 0 7.5625 0C6.39375 0 5.3625 1.03846 5.3625 2.28462C5.3625 2.49231 5.3625 2.63077 5.43125 2.76923C3.575 2.7 1.85625 1.8 0.75625 0.415385C0.55 0.761538 0.48125 1.10769 0.48125 1.59231C0.48125 2.35385 0.89375 3.04615 1.5125 3.46154C1.16875 3.46154 0.825 3.32308 0.48125 3.18462V3.18462C0.48125 4.29231 1.2375 5.19231 2.26875 5.4C2.0625 5.46923 1.85625 5.46923 1.65 5.46923C1.5125 5.46923 1.375 5.46923 1.2375 5.4C1.5125 6.3 2.3375 6.99231 3.36875 6.99231C2.6125 7.61538 1.65 7.96154 0.55 7.96154C0.34375 7.96154 0.20625 7.96154 0 7.96154C1.03125 8.58462 2.2 9 3.4375 9C7.5625 9 9.83125 5.53846 9.83125 2.56154C9.83125 2.49231 9.83125 2.35385 9.83125 2.28462C10.3125 1.93846 10.725 1.52308 11 1.03846V1.03846Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4534 0H0.478261C0.204969 0 0 0.1875 0 0.4375V9.625C0 9.8125 0.204969 10 0.478261 10H10.5217C10.795 10 11 9.8125 11 9.5625V0.4375C10.9317 0.1875 10.7267 0 10.4534 0V0ZM2.91667 9H1V4H3V9H2.91667ZM2 3C1.42857 3 1 2.5 1 2C1 1.42857 1.42857 1 2 1C2.57143 1 3 1.42857 3 2C2.92857 2.5 2.5 3 2 3V3ZM9 8.93671H7.37838V6.59494C7.37838 6.02532 7.37838 5.32911 6.56757 5.32911C5.75676 5.32911 5.62162 5.96203 5.62162 6.59494V9H4V4.12658H5.55405V4.75949V4.75949C5.75676 4.37975 6.2973 4 7.04054 4C8.66216 4 8.93243 5.01266 8.93243 6.27848V8.93671H9Z" fill="#2F3438"></path>
+                                    </svg>          
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00001 0C4.3705 0 4.16617 0.00690694 3.52621 0.0361066C2.88758 0.0652349 2.45142 0.166672 2.06977 0.315004C1.67522 0.468314 1.34061 0.673474 1.00703 1.00703C0.673474 1.34061 0.468314 1.67522 0.315004 2.06977C0.166672 2.45142 0.0652349 2.88758 0.0361066 3.52621C0.00690694 4.16617 0 4.3705 0 6.00001C0 7.6295 0.00690694 7.83383 0.0361066 8.47379C0.0652349 9.11242 0.166672 9.54858 0.315004 9.93023C0.468314 10.3248 0.673474 10.6594 1.00703 10.993C1.34061 11.3265 1.67522 11.5317 2.06977 11.685C2.45142 11.8333 2.88758 11.9348 3.52621 11.9639C4.16617 11.9931 4.3705 12 6.00001 12C7.6295 12 7.83383 11.9931 8.47379 11.9639C9.11242 11.9348 9.54858 11.8333 9.93023 11.685C10.3248 11.5317 10.6594 11.3265 10.993 10.993C11.3265 10.6594 11.5317 10.3248 11.685 9.93023C11.8333 9.54858 11.9348 9.11242 11.9639 8.47379C11.9931 7.83383 12 7.6295 12 6.00001C12 4.3705 11.9931 4.16617 11.9639 3.52621C11.9348 2.88758 11.8333 2.45142 11.685 2.06977C11.5317 1.67522 11.3265 1.34061 10.993 1.00703C10.6594 0.673474 10.3248 0.468314 9.93023 0.315004C9.54858 0.166672 9.11242 0.0652349 8.47379 0.0361066C7.83383 0.00690694 7.6295 0 6.00001 0ZM6.00001 1.08108C7.60207 1.08108 7.79184 1.0872 8.42451 1.11607C9.00951 1.14274 9.3272 1.24049 9.53863 1.32266C9.81869 1.4315 10.0186 1.56152 10.2285 1.77149C10.4385 1.98143 10.5685 2.18131 10.6773 2.46137C10.7595 2.6728 10.8573 2.99049 10.8839 3.57549C10.9128 4.20816 10.9189 4.39793 10.9189 6.00001C10.9189 7.60207 10.9128 7.79184 10.8839 8.42451C10.8573 9.00951 10.7595 9.3272 10.6773 9.53863C10.5685 9.81869 10.4385 10.0186 10.2285 10.2285C10.0186 10.4385 9.81869 10.5685 9.53863 10.6773C9.3272 10.7595 9.00951 10.8573 8.42451 10.8839C7.79193 10.9128 7.60218 10.9189 6.00001 10.9189C4.39782 10.9189 4.20809 10.9128 3.57549 10.8839C2.99049 10.8573 2.6728 10.7595 2.46137 10.6773C2.18131 10.5685 1.98143 10.4385 1.77149 10.2285C1.56154 10.0186 1.4315 9.81869 1.32266 9.53863C1.24049 9.3272 1.14274 9.00951 1.11607 8.42451C1.0872 7.79184 1.08108 7.60207 1.08108 6.00001C1.08108 4.39793 1.0872 4.20816 1.11607 3.57549C1.14274 2.99049 1.24049 2.6728 1.32266 2.46137C1.4315 2.18131 1.56152 1.98143 1.77149 1.77149C1.98143 1.56152 2.18131 1.4315 2.46137 1.32266C2.6728 1.24049 2.99049 1.14274 3.57549 1.11607C4.20816 1.0872 4.39793 1.08108 6.00001 1.08108ZM2.91892 6.00001C2.91892 4.29836 4.29836 2.91892 6.00001 2.91892C7.70164 2.91892 9.08108 4.29836 9.08108 6.00001C9.08108 7.70164 7.70164 9.08108 6.00001 9.08108C4.29836 9.08108 2.91892 7.70164 2.91892 6.00001ZM6.00001 8C4.89543 8 4 7.10457 4 6.00001C4 4.89543 4.89543 4 6.00001 4C7.10457 4 8 4.89543 8 6.00001C8 7.10457 7.10457 8 6.00001 8ZM9.20281 3.51718C9.60046 3.51718 9.92282 3.19484 9.92282 2.79719C9.92282 2.39954 9.60046 2.07718 9.20281 2.07718C8.80518 2.07718 8.48282 2.39954 8.48282 2.79719C8.48282 3.19484 8.80518 3.51718 9.20281 3.51718Z" fill="#2F3438"></path>
+                                    </svg>         
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-team-components-people">
+                        <img width="100%" src="./img/female-3.png" alt="alternate text">
+                        <h2 class="section-team-components-people-h2">Name Surname</h2>
+                        <span class="section-team-components-people-span">REALWIRE PLANING</span>
+                        <hr class="section-team-components-people-hr">
+                        <p class="section-team-components-people-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="section-team-components-people-network">
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81376 10L1.8 5.625H0V3.75H1.8V2.5C1.8 0.813 2.80291 0 4.24763 0C4.93966 0 5.53444 0.0536687 5.70776 0.0776562V1.84067L4.70578 1.84114C3.92006 1.84114 3.76792 2.23006 3.76792 2.80078V3.75H6L5.4 5.625H3.76792V10H1.81376V10Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53285 4.28571V6H7.22628C7.09489 6.71429 6.43796 8.14286 4.59854 8.14286C3.0219 8.14286 1.77372 6.71429 1.77372 5C1.77372 3.28571 3.08759 1.85714 4.59854 1.85714C5.51825 1.85714 6.10949 2.28571 6.43796 2.64286L7.68613 1.35714C6.89781 0.5 5.84672 0 4.59854 0C2.0365 0 0 2.21429 0 5C0 7.78571 2.0365 10 4.59854 10C7.22628 10 9 8 9 5.14286C9 4.78571 9 4.57143 8.93431 4.28571H4.53285V4.28571V4.28571Z" fill="#2F3438"></path>
+                                    </svg>       
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.03846C10.5875 1.24615 10.175 1.31538 9.69375 1.38462C10.175 1.10769 10.5187 0.692308 10.6562 0.138462C10.2438 0.415385 9.7625 0.553846 9.2125 0.692308C8.8 0.276923 8.18125 0 7.5625 0C6.39375 0 5.3625 1.03846 5.3625 2.28462C5.3625 2.49231 5.3625 2.63077 5.43125 2.76923C3.575 2.7 1.85625 1.8 0.75625 0.415385C0.55 0.761538 0.48125 1.10769 0.48125 1.59231C0.48125 2.35385 0.89375 3.04615 1.5125 3.46154C1.16875 3.46154 0.825 3.32308 0.48125 3.18462V3.18462C0.48125 4.29231 1.2375 5.19231 2.26875 5.4C2.0625 5.46923 1.85625 5.46923 1.65 5.46923C1.5125 5.46923 1.375 5.46923 1.2375 5.4C1.5125 6.3 2.3375 6.99231 3.36875 6.99231C2.6125 7.61538 1.65 7.96154 0.55 7.96154C0.34375 7.96154 0.20625 7.96154 0 7.96154C1.03125 8.58462 2.2 9 3.4375 9C7.5625 9 9.83125 5.53846 9.83125 2.56154C9.83125 2.49231 9.83125 2.35385 9.83125 2.28462C10.3125 1.93846 10.725 1.52308 11 1.03846V1.03846Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4534 0H0.478261C0.204969 0 0 0.1875 0 0.4375V9.625C0 9.8125 0.204969 10 0.478261 10H10.5217C10.795 10 11 9.8125 11 9.5625V0.4375C10.9317 0.1875 10.7267 0 10.4534 0V0ZM2.91667 9H1V4H3V9H2.91667ZM2 3C1.42857 3 1 2.5 1 2C1 1.42857 1.42857 1 2 1C2.57143 1 3 1.42857 3 2C2.92857 2.5 2.5 3 2 3V3ZM9 8.93671H7.37838V6.59494C7.37838 6.02532 7.37838 5.32911 6.56757 5.32911C5.75676 5.32911 5.62162 5.96203 5.62162 6.59494V9H4V4.12658H5.55405V4.75949V4.75949C5.75676 4.37975 6.2973 4 7.04054 4C8.66216 4 8.93243 5.01266 8.93243 6.27848V8.93671H9Z" fill="#2F3438"></path>
+                                    </svg>          
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00001 0C4.3705 0 4.16617 0.00690694 3.52621 0.0361066C2.88758 0.0652349 2.45142 0.166672 2.06977 0.315004C1.67522 0.468314 1.34061 0.673474 1.00703 1.00703C0.673474 1.34061 0.468314 1.67522 0.315004 2.06977C0.166672 2.45142 0.0652349 2.88758 0.0361066 3.52621C0.00690694 4.16617 0 4.3705 0 6.00001C0 7.6295 0.00690694 7.83383 0.0361066 8.47379C0.0652349 9.11242 0.166672 9.54858 0.315004 9.93023C0.468314 10.3248 0.673474 10.6594 1.00703 10.993C1.34061 11.3265 1.67522 11.5317 2.06977 11.685C2.45142 11.8333 2.88758 11.9348 3.52621 11.9639C4.16617 11.9931 4.3705 12 6.00001 12C7.6295 12 7.83383 11.9931 8.47379 11.9639C9.11242 11.9348 9.54858 11.8333 9.93023 11.685C10.3248 11.5317 10.6594 11.3265 10.993 10.993C11.3265 10.6594 11.5317 10.3248 11.685 9.93023C11.8333 9.54858 11.9348 9.11242 11.9639 8.47379C11.9931 7.83383 12 7.6295 12 6.00001C12 4.3705 11.9931 4.16617 11.9639 3.52621C11.9348 2.88758 11.8333 2.45142 11.685 2.06977C11.5317 1.67522 11.3265 1.34061 10.993 1.00703C10.6594 0.673474 10.3248 0.468314 9.93023 0.315004C9.54858 0.166672 9.11242 0.0652349 8.47379 0.0361066C7.83383 0.00690694 7.6295 0 6.00001 0ZM6.00001 1.08108C7.60207 1.08108 7.79184 1.0872 8.42451 1.11607C9.00951 1.14274 9.3272 1.24049 9.53863 1.32266C9.81869 1.4315 10.0186 1.56152 10.2285 1.77149C10.4385 1.98143 10.5685 2.18131 10.6773 2.46137C10.7595 2.6728 10.8573 2.99049 10.8839 3.57549C10.9128 4.20816 10.9189 4.39793 10.9189 6.00001C10.9189 7.60207 10.9128 7.79184 10.8839 8.42451C10.8573 9.00951 10.7595 9.3272 10.6773 9.53863C10.5685 9.81869 10.4385 10.0186 10.2285 10.2285C10.0186 10.4385 9.81869 10.5685 9.53863 10.6773C9.3272 10.7595 9.00951 10.8573 8.42451 10.8839C7.79193 10.9128 7.60218 10.9189 6.00001 10.9189C4.39782 10.9189 4.20809 10.9128 3.57549 10.8839C2.99049 10.8573 2.6728 10.7595 2.46137 10.6773C2.18131 10.5685 1.98143 10.4385 1.77149 10.2285C1.56154 10.0186 1.4315 9.81869 1.32266 9.53863C1.24049 9.3272 1.14274 9.00951 1.11607 8.42451C1.0872 7.79184 1.08108 7.60207 1.08108 6.00001C1.08108 4.39793 1.0872 4.20816 1.11607 3.57549C1.14274 2.99049 1.24049 2.6728 1.32266 2.46137C1.4315 2.18131 1.56152 1.98143 1.77149 1.77149C1.98143 1.56152 2.18131 1.4315 2.46137 1.32266C2.6728 1.24049 2.99049 1.14274 3.57549 1.11607C4.20816 1.0872 4.39793 1.08108 6.00001 1.08108ZM2.91892 6.00001C2.91892 4.29836 4.29836 2.91892 6.00001 2.91892C7.70164 2.91892 9.08108 4.29836 9.08108 6.00001C9.08108 7.70164 7.70164 9.08108 6.00001 9.08108C4.29836 9.08108 2.91892 7.70164 2.91892 6.00001ZM6.00001 8C4.89543 8 4 7.10457 4 6.00001C4 4.89543 4.89543 4 6.00001 4C7.10457 4 8 4.89543 8 6.00001C8 7.10457 7.10457 8 6.00001 8ZM9.20281 3.51718C9.60046 3.51718 9.92282 3.19484 9.92282 2.79719C9.92282 2.39954 9.60046 2.07718 9.20281 2.07718C8.80518 2.07718 8.48282 2.39954 8.48282 2.79719C8.48282 3.19484 8.80518 3.51718 9.20281 3.51718Z" fill="#2F3438"></path>
+                                    </svg>         
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-team-components-people">
+                        <img width="100%" src="./img/female-4.png" alt="alternate text">
+                        <h2 class="section-team-components-people-h2">Name Surname</h2>
+                        <span class="section-team-components-people-span">REALWIRE PLANING</span>
+                        <hr class="section-team-components-people-hr">
+                        <p class="section-team-components-people-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="section-team-components-people-network">
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81376 10L1.8 5.625H0V3.75H1.8V2.5C1.8 0.813 2.80291 0 4.24763 0C4.93966 0 5.53444 0.0536687 5.70776 0.0776562V1.84067L4.70578 1.84114C3.92006 1.84114 3.76792 2.23006 3.76792 2.80078V3.75H6L5.4 5.625H3.76792V10H1.81376V10Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53285 4.28571V6H7.22628C7.09489 6.71429 6.43796 8.14286 4.59854 8.14286C3.0219 8.14286 1.77372 6.71429 1.77372 5C1.77372 3.28571 3.08759 1.85714 4.59854 1.85714C5.51825 1.85714 6.10949 2.28571 6.43796 2.64286L7.68613 1.35714C6.89781 0.5 5.84672 0 4.59854 0C2.0365 0 0 2.21429 0 5C0 7.78571 2.0365 10 4.59854 10C7.22628 10 9 8 9 5.14286C9 4.78571 9 4.57143 8.93431 4.28571H4.53285V4.28571V4.28571Z" fill="#2F3438"></path>
+                                    </svg>       
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.03846C10.5875 1.24615 10.175 1.31538 9.69375 1.38462C10.175 1.10769 10.5187 0.692308 10.6562 0.138462C10.2438 0.415385 9.7625 0.553846 9.2125 0.692308C8.8 0.276923 8.18125 0 7.5625 0C6.39375 0 5.3625 1.03846 5.3625 2.28462C5.3625 2.49231 5.3625 2.63077 5.43125 2.76923C3.575 2.7 1.85625 1.8 0.75625 0.415385C0.55 0.761538 0.48125 1.10769 0.48125 1.59231C0.48125 2.35385 0.89375 3.04615 1.5125 3.46154C1.16875 3.46154 0.825 3.32308 0.48125 3.18462V3.18462C0.48125 4.29231 1.2375 5.19231 2.26875 5.4C2.0625 5.46923 1.85625 5.46923 1.65 5.46923C1.5125 5.46923 1.375 5.46923 1.2375 5.4C1.5125 6.3 2.3375 6.99231 3.36875 6.99231C2.6125 7.61538 1.65 7.96154 0.55 7.96154C0.34375 7.96154 0.20625 7.96154 0 7.96154C1.03125 8.58462 2.2 9 3.4375 9C7.5625 9 9.83125 5.53846 9.83125 2.56154C9.83125 2.49231 9.83125 2.35385 9.83125 2.28462C10.3125 1.93846 10.725 1.52308 11 1.03846V1.03846Z" fill="#2F3438"></path>
+                                    </svg>        
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4534 0H0.478261C0.204969 0 0 0.1875 0 0.4375V9.625C0 9.8125 0.204969 10 0.478261 10H10.5217C10.795 10 11 9.8125 11 9.5625V0.4375C10.9317 0.1875 10.7267 0 10.4534 0V0ZM2.91667 9H1V4H3V9H2.91667ZM2 3C1.42857 3 1 2.5 1 2C1 1.42857 1.42857 1 2 1C2.57143 1 3 1.42857 3 2C2.92857 2.5 2.5 3 2 3V3ZM9 8.93671H7.37838V6.59494C7.37838 6.02532 7.37838 5.32911 6.56757 5.32911C5.75676 5.32911 5.62162 5.96203 5.62162 6.59494V9H4V4.12658H5.55405V4.75949V4.75949C5.75676 4.37975 6.2973 4 7.04054 4C8.66216 4 8.93243 5.01266 8.93243 6.27848V8.93671H9Z" fill="#2F3438"></path>
+                                    </svg>          
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="section-team-components-people-network__icon">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00001 0C4.3705 0 4.16617 0.00690694 3.52621 0.0361066C2.88758 0.0652349 2.45142 0.166672 2.06977 0.315004C1.67522 0.468314 1.34061 0.673474 1.00703 1.00703C0.673474 1.34061 0.468314 1.67522 0.315004 2.06977C0.166672 2.45142 0.0652349 2.88758 0.0361066 3.52621C0.00690694 4.16617 0 4.3705 0 6.00001C0 7.6295 0.00690694 7.83383 0.0361066 8.47379C0.0652349 9.11242 0.166672 9.54858 0.315004 9.93023C0.468314 10.3248 0.673474 10.6594 1.00703 10.993C1.34061 11.3265 1.67522 11.5317 2.06977 11.685C2.45142 11.8333 2.88758 11.9348 3.52621 11.9639C4.16617 11.9931 4.3705 12 6.00001 12C7.6295 12 7.83383 11.9931 8.47379 11.9639C9.11242 11.9348 9.54858 11.8333 9.93023 11.685C10.3248 11.5317 10.6594 11.3265 10.993 10.993C11.3265 10.6594 11.5317 10.3248 11.685 9.93023C11.8333 9.54858 11.9348 9.11242 11.9639 8.47379C11.9931 7.83383 12 7.6295 12 6.00001C12 4.3705 11.9931 4.16617 11.9639 3.52621C11.9348 2.88758 11.8333 2.45142 11.685 2.06977C11.5317 1.67522 11.3265 1.34061 10.993 1.00703C10.6594 0.673474 10.3248 0.468314 9.93023 0.315004C9.54858 0.166672 9.11242 0.0652349 8.47379 0.0361066C7.83383 0.00690694 7.6295 0 6.00001 0ZM6.00001 1.08108C7.60207 1.08108 7.79184 1.0872 8.42451 1.11607C9.00951 1.14274 9.3272 1.24049 9.53863 1.32266C9.81869 1.4315 10.0186 1.56152 10.2285 1.77149C10.4385 1.98143 10.5685 2.18131 10.6773 2.46137C10.7595 2.6728 10.8573 2.99049 10.8839 3.57549C10.9128 4.20816 10.9189 4.39793 10.9189 6.00001C10.9189 7.60207 10.9128 7.79184 10.8839 8.42451C10.8573 9.00951 10.7595 9.3272 10.6773 9.53863C10.5685 9.81869 10.4385 10.0186 10.2285 10.2285C10.0186 10.4385 9.81869 10.5685 9.53863 10.6773C9.3272 10.7595 9.00951 10.8573 8.42451 10.8839C7.79193 10.9128 7.60218 10.9189 6.00001 10.9189C4.39782 10.9189 4.20809 10.9128 3.57549 10.8839C2.99049 10.8573 2.6728 10.7595 2.46137 10.6773C2.18131 10.5685 1.98143 10.4385 1.77149 10.2285C1.56154 10.0186 1.4315 9.81869 1.32266 9.53863C1.24049 9.3272 1.14274 9.00951 1.11607 8.42451C1.0872 7.79184 1.08108 7.60207 1.08108 6.00001C1.08108 4.39793 1.0872 4.20816 1.11607 3.57549C1.14274 2.99049 1.24049 2.6728 1.32266 2.46137C1.4315 2.18131 1.56152 1.98143 1.77149 1.77149C1.98143 1.56152 2.18131 1.4315 2.46137 1.32266C2.6728 1.24049 2.99049 1.14274 3.57549 1.11607C4.20816 1.0872 4.39793 1.08108 6.00001 1.08108ZM2.91892 6.00001C2.91892 4.29836 4.29836 2.91892 6.00001 2.91892C7.70164 2.91892 9.08108 4.29836 9.08108 6.00001C9.08108 7.70164 7.70164 9.08108 6.00001 9.08108C4.29836 9.08108 2.91892 7.70164 2.91892 6.00001ZM6.00001 8C4.89543 8 4 7.10457 4 6.00001C4 4.89543 4.89543 4 6.00001 4C7.10457 4 8 4.89543 8 6.00001C8 7.10457 7.10457 8 6.00001 8ZM9.20281 3.51718C9.60046 3.51718 9.92282 3.19484 9.92282 2.79719C9.92282 2.39954 9.60046 2.07718 9.20281 2.07718C8.80518 2.07718 8.48282 2.39954 8.48282 2.79719C8.48282 3.19484 8.80518 3.51718 9.20281 3.51718Z" fill="#2F3438"></path>
+                                    </svg>         
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / team -->
+            
+        <!-- text-3 -->
+        <section class="section-outer section-text-3">
+            <div class="section-inner">
+                <div class="section-text-3-block">
+                    <span class="section-text-3-block-span">NULLA SUSCIPIT LACINA VOLUTPA</span>
+                    <h2 class="section-text-3-block-h2">Innovative solutions to boost your creative projects</h2>
+                    <p class="section-text-3-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+        <!-- / text-3 -->
+            
+        <!-- testimonials -->
+        <section class="section-outer section-testimonials">
+            <div class="section-inner">
+                <div class="section-testimonials-block">
+                    <h2 class="section-testimonials-block-h2">Testimonials</h2>
+                    <p class="section-testimonials-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="section-testimonials-contents">
+                    <div class="section-testimonials-contents-item">
+                        <img class="section-testimonials-contents-item-img" width="100%" src="./img/female-1.png" alt="alternate text">
+                        <div class="section-testimonials-contents-item-block">
+                            <p class="section-testimonials-contents-item-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3 class="section-testimonials-contents-item-block-h3">Name Surname</h3>
+                            <span class="section-testimonials-contents-item-block-span">REALWIRE CEO</span>
+                        </div>
+                    </div>
+                    <div class="section-testimonials-contents-item">
+                        <img class="section-testimonials-contents-item-img" width="100%" src="./img/female-2.png" alt="alternate text">
+                        <div class="section-testimonials-contents-item-block">
+                            <p class="section-testimonials-contents-item-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3 class="section-testimonials-contents-item-block-h3">Name Surname</h3>
+                            <span class="section-testimonials-contents-item-block-span">REALWIRE CEO</span>
+                        </div>
+                    </div>
+                    <div class="section-testimonials-contents-item">
+                        <img class="section-testimonials-contents-item-img" width="100%" src="./img/female-4.png" alt="alternate text">
+                        <div class="section-testimonials-contents-item-block">
+                            <p class="section-testimonials-contents-item-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3 class="section-testimonials-contents-item-block-h3">Name Surname</h3>
+                            <span class="section-testimonials-contents-item-block-span">REALWIRE CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / testimonials -->
+            
+        <!-- services -->
+        <section class="section-outer section-services">
+            <div class="section-inner">
+                <div class="section-services-block">
+                    <h2 class="section-services-block-h2">People trusted our services</h2>
+                    <p class="section-services-block-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="section-services-item">
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-codekit-uai.png" alt="alternate text">  
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-github-uai.png" alt="alternate text">
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-less-uai.png" alt="alternate text">
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-jquery-uai.png" alt="alternate text">
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-codekit-uai.png" alt="alternate text">  
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-github-uai.png" alt="alternate text">
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-less-uai.png" alt="alternate text">
+                        </div>
+                    </div>
+                    <div class="section-services-item-block">
+                        <div class="section-services-item-block-content">
+                            <img src="./img/logo-jquery-uai.png" alt="alternate text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / services -->
+            
+        <!-- contact  -->
+        <section class="section-outer section-contact">
+            <div class="section-inner">
+                <div class="section-contact-text">
+                    <h2 class="section-contact-text-h2">Contact</h2>
+                    <p class="section-contact-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="section-contact-text-p">9569393392 <br> info@realwire.com <br> 118 Avenur Reine Astrid KY34DV Namur LONDON</p>
+                </div>
+                <div class="section-contact-forma">
+                    <div class="section-contact-forma-block">
+                        <input class="section-contact-forma-block-input" type="text" placeholder="NAME" style="margin-right: 15px;">
+                        <input class="section-contact-forma-block-input" type="text" placeholder="EMAIL">
+                    </div>
+                    <textarea class="section-contact-forma-textarea" placeholder="MESSAGE"></textarea>
+                    <button class="section-contact-forma-button">SEND</button>
+                </div>
+            </div>
+            <div class="section-contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47339633357!2d-0.2416803176580531!3d51.52855824270755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2z0JvQvtC90LTQvtC9LCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sby!4v1570818377931!5m2!1sru!2sby" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </section>
+        <!-- / contact -->
+            
+        <!-- footer -->
+        <section class="section-outer section-footer">
+            <div class="section-inner">
+                <div class="section-footer-content">
+                    <div>
+                        <a href="#">
+                            <img src="./img/logo.svg" alt="alternate text">
+                        </a>
+                    </div>
+                    <h2 class="section-footer-content-h2">What are you waiting?</h2>
+                    <p class="section-footer-content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="section-footer-content-button">FREE QUOTE</button>
+                    <p class="section-footer-content-p">© 2019 Realwire by Nublislabs All rights reserved.</p>
+                    <div class="section-footer-content-network">
+                        <a href="#">
+                            <div class="section-footer-content-network-icon">
+                                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.81376 10L1.8 5.625H0V3.75H1.8V2.5C1.8 0.813 2.80291 0 4.24763 0C4.93966 0 5.53444 0.0536687 5.70776 0.0776562V1.84067L4.70578 1.84114C3.92006 1.84114 3.76792 2.23006 3.76792 2.80078V3.75H6L5.4 5.625H3.76792V10H1.81376V10Z" fill="#FFFFFF"/>
+                                </svg>        
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-footer-content-network-icon">
+                                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53285 4.28571V6H7.22628C7.09489 6.71429 6.43796 8.14286 4.59854 8.14286C3.0219 8.14286 1.77372 6.71429 1.77372 5C1.77372 3.28571 3.08759 1.85714 4.59854 1.85714C5.51825 1.85714 6.10949 2.28571 6.43796 2.64286L7.68613 1.35714C6.89781 0.5 5.84672 0 4.59854 0C2.0365 0 0 2.21429 0 5C0 7.78571 2.0365 10 4.59854 10C7.22628 10 9 8 9 5.14286C9 4.78571 9 4.57143 8.93431 4.28571H4.53285V4.28571V4.28571Z" fill="#FFFFFF"/>
+                                </svg>       
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-footer-content-network-icon">
+                                <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 1.03846C10.5875 1.24615 10.175 1.31538 9.69375 1.38462C10.175 1.10769 10.5187 0.692308 10.6562 0.138462C10.2438 0.415385 9.7625 0.553846 9.2125 0.692308C8.8 0.276923 8.18125 0 7.5625 0C6.39375 0 5.3625 1.03846 5.3625 2.28462C5.3625 2.49231 5.3625 2.63077 5.43125 2.76923C3.575 2.7 1.85625 1.8 0.75625 0.415385C0.55 0.761538 0.48125 1.10769 0.48125 1.59231C0.48125 2.35385 0.89375 3.04615 1.5125 3.46154C1.16875 3.46154 0.825 3.32308 0.48125 3.18462V3.18462C0.48125 4.29231 1.2375 5.19231 2.26875 5.4C2.0625 5.46923 1.85625 5.46923 1.65 5.46923C1.5125 5.46923 1.375 5.46923 1.2375 5.4C1.5125 6.3 2.3375 6.99231 3.36875 6.99231C2.6125 7.61538 1.65 7.96154 0.55 7.96154C0.34375 7.96154 0.20625 7.96154 0 7.96154C1.03125 8.58462 2.2 9 3.4375 9C7.5625 9 9.83125 5.53846 9.83125 2.56154C9.83125 2.49231 9.83125 2.35385 9.83125 2.28462C10.3125 1.93846 10.725 1.52308 11 1.03846V1.03846Z" fill="#FFFFFF"/>
+                                </svg>        
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-footer-content-network-icon">
+                                <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4534 0H0.478261C0.204969 0 0 0.1875 0 0.4375V9.625C0 9.8125 0.204969 10 0.478261 10H10.5217C10.795 10 11 9.8125 11 9.5625V0.4375C10.9317 0.1875 10.7267 0 10.4534 0V0ZM2.91667 9H1V4H3V9H2.91667ZM2 3C1.42857 3 1 2.5 1 2C1 1.42857 1.42857 1 2 1C2.57143 1 3 1.42857 3 2C2.92857 2.5 2.5 3 2 3V3ZM9 8.93671H7.37838V6.59494C7.37838 6.02532 7.37838 5.32911 6.56757 5.32911C5.75676 5.32911 5.62162 5.96203 5.62162 6.59494V9H4V4.12658H5.55405V4.75949V4.75949C5.75676 4.37975 6.2973 4 7.04054 4C8.66216 4 8.93243 5.01266 8.93243 6.27848V8.93671H9Z" fill="#FFFFFF"/>
+                                </svg>          
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="section-footer-content-network-icon">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00001 0C4.3705 0 4.16617 0.00690694 3.52621 0.0361066C2.88758 0.0652349 2.45142 0.166672 2.06977 0.315004C1.67522 0.468314 1.34061 0.673474 1.00703 1.00703C0.673474 1.34061 0.468314 1.67522 0.315004 2.06977C0.166672 2.45142 0.0652349 2.88758 0.0361066 3.52621C0.00690694 4.16617 0 4.3705 0 6.00001C0 7.6295 0.00690694 7.83383 0.0361066 8.47379C0.0652349 9.11242 0.166672 9.54858 0.315004 9.93023C0.468314 10.3248 0.673474 10.6594 1.00703 10.993C1.34061 11.3265 1.67522 11.5317 2.06977 11.685C2.45142 11.8333 2.88758 11.9348 3.52621 11.9639C4.16617 11.9931 4.3705 12 6.00001 12C7.6295 12 7.83383 11.9931 8.47379 11.9639C9.11242 11.9348 9.54858 11.8333 9.93023 11.685C10.3248 11.5317 10.6594 11.3265 10.993 10.993C11.3265 10.6594 11.5317 10.3248 11.685 9.93023C11.8333 9.54858 11.9348 9.11242 11.9639 8.47379C11.9931 7.83383 12 7.6295 12 6.00001C12 4.3705 11.9931 4.16617 11.9639 3.52621C11.9348 2.88758 11.8333 2.45142 11.685 2.06977C11.5317 1.67522 11.3265 1.34061 10.993 1.00703C10.6594 0.673474 10.3248 0.468314 9.93023 0.315004C9.54858 0.166672 9.11242 0.0652349 8.47379 0.0361066C7.83383 0.00690694 7.6295 0 6.00001 0ZM6.00001 1.08108C7.60207 1.08108 7.79184 1.0872 8.42451 1.11607C9.00951 1.14274 9.3272 1.24049 9.53863 1.32266C9.81869 1.4315 10.0186 1.56152 10.2285 1.77149C10.4385 1.98143 10.5685 2.18131 10.6773 2.46137C10.7595 2.6728 10.8573 2.99049 10.8839 3.57549C10.9128 4.20816 10.9189 4.39793 10.9189 6.00001C10.9189 7.60207 10.9128 7.79184 10.8839 8.42451C10.8573 9.00951 10.7595 9.3272 10.6773 9.53863C10.5685 9.81869 10.4385 10.0186 10.2285 10.2285C10.0186 10.4385 9.81869 10.5685 9.53863 10.6773C9.3272 10.7595 9.00951 10.8573 8.42451 10.8839C7.79193 10.9128 7.60218 10.9189 6.00001 10.9189C4.39782 10.9189 4.20809 10.9128 3.57549 10.8839C2.99049 10.8573 2.6728 10.7595 2.46137 10.6773C2.18131 10.5685 1.98143 10.4385 1.77149 10.2285C1.56154 10.0186 1.4315 9.81869 1.32266 9.53863C1.24049 9.3272 1.14274 9.00951 1.11607 8.42451C1.0872 7.79184 1.08108 7.60207 1.08108 6.00001C1.08108 4.39793 1.0872 4.20816 1.11607 3.57549C1.14274 2.99049 1.24049 2.6728 1.32266 2.46137C1.4315 2.18131 1.56152 1.98143 1.77149 1.77149C1.98143 1.56152 2.18131 1.4315 2.46137 1.32266C2.6728 1.24049 2.99049 1.14274 3.57549 1.11607C4.20816 1.0872 4.39793 1.08108 6.00001 1.08108ZM2.91892 6.00001C2.91892 4.29836 4.29836 2.91892 6.00001 2.91892C7.70164 2.91892 9.08108 4.29836 9.08108 6.00001C9.08108 7.70164 7.70164 9.08108 6.00001 9.08108C4.29836 9.08108 2.91892 7.70164 2.91892 6.00001ZM6.00001 8C4.89543 8 4 7.10457 4 6.00001C4 4.89543 4.89543 4 6.00001 4C7.10457 4 8 4.89543 8 6.00001C8 7.10457 7.10457 8 6.00001 8ZM9.20281 3.51718C9.60046 3.51718 9.92282 3.19484 9.92282 2.79719C9.92282 2.39954 9.60046 2.07718 9.20281 2.07718C8.80518 2.07718 8.48282 2.39954 8.48282 2.79719C8.48282 3.19484 8.80518 3.51718 9.20281 3.51718Z" fill="#FFFFFF"/>
+                                </svg>         
+                            </div>
+                        </a>
+                    </div>
+                <div>
+            </div>
+        </section>
+        <!-- / footer -->
+
+        <script src="./js/slide.js"></script>
+        <script src="./js/main-menu.js"></script>
+    </body>
+</html>
