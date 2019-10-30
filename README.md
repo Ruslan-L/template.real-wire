@@ -4,6 +4,6 @@
 
 Simple countdown counter in javaScript.
 
-![alt text](https://ruslan-l.github.io/real-wire/git/readme/header.jpg?v=02)
+![alt text](https://ruslan-l.github.io/.readme/header.jpg?v=01)
 
 [Demo](https://ruslan-l.github.io/real-wire/)
